@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f561490-62af-40c0-b926-22e39cffc811" name="Changes" comment="polymorphism" />
+    <list default="true" id="2f561490-62af-40c0-b926-22e39cffc811" name="Changes" comment="polymorphism">
+      <change afterPath="$PROJECT_DIR$/src/lesson4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Bmw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Bmw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Toyota.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Toyota.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +32,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,7 +64,7 @@
   </component>
   <component name="RunManager">
     <configuration name="run" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="src.lesson3.Main" />
+      <option name="MAIN_CLASS_NAME" value="src.lesson4.Main" />
       <module name="Java-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
