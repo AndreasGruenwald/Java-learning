@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f561490-62af-40c0-b926-22e39cffc811" name="Changes" comment="encapsulation">
-      <change afterPath="$PROJECT_DIR$/src/Loto/Bone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Loto/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Loto/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exersises/exersise1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exersises/exersise2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2023_12_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2023_12_35__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/Loto/Bone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/Loto/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/Loto/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loto/Bone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loto/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loto/Card.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +31,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
@@ -62,7 +62,7 @@
       <recent name="C:\Users\andre\Desktop\Java\Java-learning\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exersise2">
+  <component name="RunManager" selected="Application.loto">
     <configuration name="exersise2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="src.exersises.exersise2.Main" />
       <module name="Java-learning" />

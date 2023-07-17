@@ -3,25 +3,54 @@ package src.Loto;
 import java.util.Random;
 
 public class Card {
-    private int[] bones;
-    private int countOfBones = 10;
+    private int countOfBonesInCard = 10;
+    private int countOfBonesInGame = 100;
+    private int[] bones = new int[countOfBonesInCard];
     
-    private void Generator() {
+    private void generator() {
+        for (int i = 0; i < countOfBonesInCard; i++) {
+            manager(i);
+        }
+    }
+    
+    private boolean diversityCheck(int bone) {
+        for (int i = 0; i < countOfBonesInCard; i++) {
+            if (bone == bones[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+    
+    private void manager(int iteration) {
         Random random = new Random();
-        for (int i = 0; i < countOfBones; i++) {
-            bones[i] = random.nextInt(101);//  <-- here
+        int randomCount = random.nextInt(countOfBonesInGame + 1);
+        if (diversityCheck(randomCount)) {
+            bones[iteration] = randomCount;
+        }
+        else {
+            manager(iteration);
         }
     }
     
     public int[] getBones() {
+        generator();
         return bones;
     }
     
-    public int getCountOfBones() {
-        return countOfBones;
+    public int getCountOfBonesInCard() {
+        return countOfBonesInCard;
     }
     
-    public void setCountOfBones(int countOfBones) {
-        this.countOfBones = countOfBones;
+    public void setCountOfBonesInCard(int countOfBones) {
+        this.countOfBonesInCard = countOfBones;
+    }
+    
+    public int getCountOfBonesInGame() {
+        return countOfBonesInGame;
+    }
+    
+    public void setCountOfBonesInGame(int countOfBonesInCard) {
+        this.countOfBonesInGame = countOfBonesInCard;
     }
 }
