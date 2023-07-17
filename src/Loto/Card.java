@@ -7,6 +7,17 @@ public class Card {
     private int countOfBonesInGame = 100;
     private int[] bones = new int[countOfBonesInCard];
     
+    private void manager(int iteration) {
+        Random random = new Random();
+        int randomCount = random.nextInt(countOfBonesInGame + 1);
+        if (diversityCheck(randomCount)) {
+            bones[iteration] = randomCount;
+        }
+        else {
+            manager(iteration);
+        }
+    }
+    
     private void generator() {
         for (int i = 0; i < countOfBonesInCard; i++) {
             manager(i);
@@ -20,17 +31,6 @@ public class Card {
             }
         }
         return true;
-    }
-    
-    private void manager(int iteration) {
-        Random random = new Random();
-        int randomCount = random.nextInt(countOfBonesInGame + 1);
-        if (diversityCheck(randomCount)) {
-            bones[iteration] = randomCount;
-        }
-        else {
-            manager(iteration);
-        }
     }
     
     public int[] getBones() {
