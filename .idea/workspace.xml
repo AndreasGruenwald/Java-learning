@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f561490-62af-40c0-b926-22e39cffc811" name="Changes" comment="Loto">
+      <change afterPath="$PROJECT_DIR$/src/exersises/exersise3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2023_12_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2023_12_35__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/Loto/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/Loto/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loto/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loto/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loto/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loto/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/Loto/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/Loto/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loto/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lotto/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loto/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lotto/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       </method>
     </configuration>
     <configuration name="loto" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="src.Loto.Program" />
+      <option name="MAIN_CLASS_NAME" value="src.Lotto.Program" />
       <module name="Java-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689630291449</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Loto">
+      <created>1689776015141</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689776015141</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,9 +159,9 @@
           <option name="timeStamp" value="9" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/exersises/exersise3/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/Lotto/Card.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

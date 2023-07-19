@@ -1,4 +1,4 @@
-package src.Loto;
+package src.Lotto;
 
 public class Program {
     public static void main(String[] args) {
