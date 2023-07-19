@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f561490-62af-40c0-b926-22e39cffc811" name="Changes" comment="encapsulation">
+    <list default="true" id="2f561490-62af-40c0-b926-22e39cffc811" name="Changes" comment="Loto">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2023_12_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2023_12_35__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/Loto/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/Loto/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loto/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loto/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Loto/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loto/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +63,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.loto">
-    <configuration name="exersise2" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="src.exersises.exersise2.Main" />
+    <configuration name="exersise3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="src.exersises.exersise3.Main" />
       <module name="Java-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,7 +79,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.loto" />
-      <item itemvalue="Application.exersise2" />
+      <item itemvalue="Application.exersise3" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -108,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689503434014</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Loto">
+      <created>1689630291449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689630291449</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,7 +136,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="polymorphism" />
     <MESSAGE value="encapsulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="encapsulation" />
+    <MESSAGE value="Loto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -134,6 +146,15 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.UnknownFormatConversionException" package="java.util" />
+          <option name="timeStamp" value="9" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exersises/exersise3/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -3,8 +3,12 @@ package src.Loto;
 import java.util.Random;
 
 public class Card {
-    private int countOfBonesInCard = 10;
-    private int countOfBonesInGame = 100;
+    final private int ROWS = 9;
+    final private int LINES = 3;
+    
+    private int countOfBonesInCard = 27;
+    private int countOfBonesInGame = 90;
+    private int[][] card = new int[LINES][ROWS];
     private int[] bones = new int[countOfBonesInCard];
     
     private void manager(int iteration) {
@@ -33,24 +37,35 @@ public class Card {
         return true;
     }
     
-    public int[] getBones() {
+    private void createCard() {
+        var counterForBones = 0;
+        for (int i = 0; i < LINES; i++) {
+            for (int j = 0; j < ROWS; j++) {
+                card[i][j] = bones[counterForBones];
+                counterForBones++;
+            }
+        }
+    }
+    
+    public int[][] getCard() {
         generator();
-        return bones;
+        createCard();
+        return card;
     }
     
     public int getCountOfBonesInCard() {
         return countOfBonesInCard;
     }
     
-    public void setCountOfBonesInCard(int countOfBones) {
-        this.countOfBonesInCard = countOfBones;
-    }
-    
     public int getCountOfBonesInGame() {
         return countOfBonesInGame;
     }
     
-    public void setCountOfBonesInGame(int countOfBonesInCard) {
-        this.countOfBonesInGame = countOfBonesInCard;
+    public int getROWS() {
+        return ROWS;
+    }
+    
+    public int getLINES() {
+        return LINES;
     }
 }
