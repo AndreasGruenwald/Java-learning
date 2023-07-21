@@ -90,4 +90,8 @@ public class Card {
     public int getLINES() {
         return LINES;
     }
+
+    public String helloWorld(){
+        return "Hello World";
+    }
 }
