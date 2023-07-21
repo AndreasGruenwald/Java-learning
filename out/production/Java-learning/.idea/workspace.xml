@@ -6,8 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="2f561490-62af-40c0-b926-22e39cffc811" name="Changes" comment="Lotto">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2023_12_35_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2023_12_35__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2023_12_35_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2023_12_35_[Changes]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/Lotto/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/Lotto/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/Lotto/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/Lotto/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/exersises/exersise1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/exersises/exersise1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/exersises/exersise2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/exersises/exersise2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/exersises/exersise3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/exersises/exersise3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Bmw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Bmw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Lamborghini.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Lamborghini.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Toyota.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/lesson3/Toyota.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/lesson4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/lesson4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/lesson4/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/lesson4/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lotto/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lotto/Card.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +45,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -57,6 +73,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
