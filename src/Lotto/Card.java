@@ -20,8 +20,14 @@ public class Card {
     
     private int createRndBarrel(int i_Iteration, int j_Iteration) {
         Random random = new Random();
-        int randomCount = random.nextInt(10);
         var passedCount = 0;
+        int randomCount;
+        
+        if (j_Iteration == 8) {
+            randomCount = random.nextInt(11);
+        } else {
+            randomCount = random.nextInt(10);
+        }
         
         if (Check(i_Iteration, j_Iteration, randomCount)) {
             passedCount = randomCount;
