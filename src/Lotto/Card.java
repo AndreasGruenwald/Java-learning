@@ -91,7 +91,7 @@ public class Card {
         return LINES;
     }
 
-    public String helloWorld(){
+    private String helloWorld(){
         return "Hello World";
     }
 }
