@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f561490-62af-40c0-b926-22e39cffc811" name="Changes" comment="">
+    <list default="true" id="2f561490-62af-40c0-b926-22e39cffc811" name="Changes" comment="Lotto">
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2023_12_35_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/.idea/shelf/Uncommitted_changes_before_Update_at_16_07_2023_12_35__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/Lotto/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/Lotto/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learning/src/Lotto/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learning/src/Lotto/Program.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lotto/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lotto/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lotto/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lotto/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
