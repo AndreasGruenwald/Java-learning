@@ -4,6 +4,26 @@ public class Program {
     public static void main(String[] args) {
         Card cardObject = new Card();
         showCard(cardObject.getCard(), cardObject);
+        System.out.println();
+        showCard(cardObject.getCard(), cardObject);
+        System.out.println();
+        showCard(cardObject.getCard(), cardObject);
+        System.out.println();
+        showCard(cardObject.getCard(), cardObject);
+        System.out.println();
+        showCard(cardObject.getCard(), cardObject);
+        System.out.println();
+        showCard(cardObject.getCard(), cardObject);
+        System.out.println();
+        showCard(cardObject.getCard(), cardObject);
+        System.out.println();
+        showCard(cardObject.getCard(), cardObject);
+        System.out.println();
+        showCard(cardObject.getCard(), cardObject);
+        System.out.println();
+        showCard(cardObject.getCard(), cardObject);
+        System.out.println();
+        
     }
     
     private static void showCard(int[][] card, Card cardObject) {

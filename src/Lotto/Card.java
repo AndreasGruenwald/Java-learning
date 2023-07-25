@@ -6,13 +6,19 @@ public class Card {
     final private int ROWS = 9;
     final private int LINES = 3;
     
-    private int countOfBarrelsInCard = 27;
-    private int countOfBarrelsInGame = 90;
-    private int[][] card = new int[LINES][ROWS];
+    private int countOfBarrelsInCard;
+    private int countOfBarrelsInGame;
+    private int[][] card;
+    
+    public Card() {
+        this.countOfBarrelsInCard = 27;
+        this.countOfBarrelsInGame = 90;
+        this.card = new int[LINES][ROWS];
+    }
     
     private void createCard() {
         cardSet();
-        addZeroes();
+        //addZeroes();
     }  //main method
     
     private void cardSet() {
@@ -22,7 +28,7 @@ public class Card {
             }
         }
     }  //for createCard();
-    
+    /*
     private void addZeroes() {
         for (int i = 0; i < LINES; i++) {
             var arrayOfRandomCounts = arrayOfRandomCountsSet();
@@ -30,20 +36,22 @@ public class Card {
                 card[i][arrayOfRandomCounts[j]] = 99;
             }
         }
-    }  //for createCard();
+    }  //for createCard();*/
     
     private int createRandomBarrel(int i_Iteration, int j_Iteration) {
         Random random = new Random();
         var passedCount = 0;
         int randomCount;
         
-        if (j_Iteration == 8) {
+        if (j_Iteration == 0) {
+            randomCount = (int)Math.random() * 10;;
+        } else if (j_Iteration == 8){
             randomCount = random.nextInt(11);
         } else {
             randomCount = random.nextInt(10);
         }
         
-        if (diversityCheckForCardSet(i_Iteration, j_Iteration, randomCount)) {
+        if (diversityCheck(i_Iteration, j_Iteration, randomCount)) {
             passedCount = randomCount;
         }
         else {
@@ -52,7 +60,7 @@ public class Card {
         return j_Iteration * 10 + passedCount;
     }  //for cardSet();
     
-    private boolean diversityCheckForCardSet(int i_Iteration, int j_Iteration, int randomCount) {
+    private boolean diversityCheck(int i_Iteration, int j_Iteration, int randomCount) {
         for (int i = 0; i < i_Iteration; i++) {
             if (j_Iteration * 10 + randomCount == card[i][j_Iteration]) {
                 return false;
@@ -60,7 +68,7 @@ public class Card {
         }
         return true;
     }  // for cardSet().createRandomBarrel()
-    
+    /*
     private int[] arrayOfRandomCountsSet() {
         var arrayOfRandomCounts = new int[4];
 
@@ -91,7 +99,7 @@ public class Card {
         }
         return trueCount;
     }  //for addZeroes().arrayOfRandomCountsSet()
-    
+    */
     public int[][] getCard() {
         createCard();
         return card;
