@@ -1,0 +1,102 @@
+Index: src/Lotto/Card.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package src.Lotto;\r\n\r\nimport java.util.Random;\r\n\r\npublic class Card {\r\n    final private int ROWS = 9;\r\n    final private int LINES = 3;\r\n    \r\n    private int countOfBarrelsInCard = 27;\r\n    private int countOfBarrelsInGame = 90;\r\n    private int[][] card = new int[LINES][ROWS];\r\n\r\n    private void createCard() {\r\n        cardSet();\r\n        addZeroes();\r\n    }  //main method\r\n    \r\n    private void cardSet() {\r\n        for (int i = 0; i < LINES; i++) {\r\n            for (int j = 0; j < ROWS; j++) {\r\n                card[i][j] = createRandomBarrel(i, j);\r\n            }\r\n        }\r\n    }  //for createCard();\r\n    \r\n    private void addZeroes() {\r\n        /*for (int i = 0; i < LINES; i++) {\r\n            var arrayOfRandomCounters = arrayOfRandomCountersSet();\r\n            for (int j = 0; j < 4; j++) {\r\n                card[i][arrayOfRandomCounters[j]] = 99;\r\n            }\r\n        }*/\r\n    }  //for createCard(); not ready\r\n    \r\n    private int createRandomBarrel(int i_Iteration, int j_Iteration) {\r\n        Random random = new Random();\r\n        var passedCount = 0;\r\n        int randomCount;\r\n        \r\n        if (j_Iteration == 8) {\r\n            randomCount = random.nextInt(11);\r\n        } else {\r\n            randomCount = random.nextInt(10);\r\n        }\r\n        \r\n        if (Check(i_Iteration, j_Iteration, randomCount)) {\r\n            passedCount = randomCount;\r\n        }\r\n        else {\r\n            createRandomBarrel(i_Iteration, j_Iteration);\r\n        }\r\n        return j_Iteration * 10 + passedCount;\r\n    }  //for cardSet();\r\n    \r\n    private boolean Check(int i_Iteration, int j_Iteration, int randomCount) {\r\n        for (int i = 0; i < i_Iteration; i++) {\r\n            if (j_Iteration * 10 + randomCount == card[i][j_Iteration]) {\r\n                return false;\r\n            }\r\n        }\r\n        return true;\r\n    }  // for cardSet();\r\n    \r\n    private int[] arrayOfRandomCountersSet() {\r\n        /*var arrayOfRandomCounters = new int[4];\r\n        Random random = new Random();\r\n        for (int i = 0; i < arrayOfRandomCounters.length; i++) {\r\n            arrayOfRandomCounters[i] = random.nextInt(ROWS);\r\n        }*/\r\n        return new int[4];//arrayOfRandomCounters;\r\n    }  //for addZeroes(); not ready\r\n    \r\n    public int[][] getCard() {\r\n        createCard();\r\n        return card;\r\n    }\r\n    \r\n    public int getCountOfBarrelsInCard() {\r\n        return countOfBarrelsInCard;\r\n    }\r\n    \r\n    public int getCountOfBarrelsInGame() {\r\n        return countOfBarrelsInGame;\r\n    }\r\n    \r\n    public int getROWS() {\r\n        return ROWS;\r\n    }\r\n    \r\n    public int getLINES() {\r\n        return LINES;\r\n    }\r\n\r\n    public String helloWorld(){\r\n        return \"Hello World\";\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Lotto/Card.java b/src/Lotto/Card.java
+--- a/src/Lotto/Card.java	(revision faba724f65274d0fd0384f800216c541f3f9c540)
++++ b/src/Lotto/Card.java	(date 1689981792013)
+@@ -9,7 +9,7 @@
+     private int countOfBarrelsInCard = 27;
+     private int countOfBarrelsInGame = 90;
+     private int[][] card = new int[LINES][ROWS];
+-
++    
+     private void createCard() {
+         cardSet();
+         addZeroes();
+@@ -24,13 +24,14 @@
+     }  //for createCard();
+     
+     private void addZeroes() {
+-        /*for (int i = 0; i < LINES; i++) {
+-            var arrayOfRandomCounters = arrayOfRandomCountersSet();
++        var arrayOfRandomCounts = new int[4];
++        for (int i = 0; i < LINES; i++) {
++            arrayOfRandomCounts = arrayOfRandomCountsSet(arrayOfRandomCounts);
+             for (int j = 0; j < 4; j++) {
+-                card[i][arrayOfRandomCounters[j]] = 99;
++                card[i][arrayOfRandomCounts[j]] = 99;
+             }
+-        }*/
+-    }  //for createCard(); not ready
++        }
++    }  //for createCard();
+     
+     private int createRandomBarrel(int i_Iteration, int j_Iteration) {
+         Random random = new Random();
+@@ -43,7 +44,7 @@
+             randomCount = random.nextInt(10);
+         }
+         
+-        if (Check(i_Iteration, j_Iteration, randomCount)) {
++        if (diversityCheckForCardSet(i_Iteration, j_Iteration, randomCount)) {
+             passedCount = randomCount;
+         }
+         else {
+@@ -52,7 +53,7 @@
+         return j_Iteration * 10 + passedCount;
+     }  //for cardSet();
+     
+-    private boolean Check(int i_Iteration, int j_Iteration, int randomCount) {
++    private boolean diversityCheckForCardSet(int i_Iteration, int j_Iteration, int randomCount) {
+         for (int i = 0; i < i_Iteration; i++) {
+             if (j_Iteration * 10 + randomCount == card[i][j_Iteration]) {
+                 return false;
+@@ -61,14 +62,28 @@
+         return true;
+     }  // for cardSet();
+     
+-    private int[] arrayOfRandomCountersSet() {
+-        /*var arrayOfRandomCounters = new int[4];
++    private int[] arrayOfRandomCountsSet(int[] arrayOfRandomCounts) {
+         Random random = new Random();
+-        for (int i = 0; i < arrayOfRandomCounters.length; i++) {
+-            arrayOfRandomCounters[i] = random.nextInt(ROWS);
+-        }*/
+-        return new int[4];//arrayOfRandomCounters;
+-    }  //for addZeroes(); not ready
++        var randomCount = random.nextInt(ROWS);
++        for (int i = 0; i < arrayOfRandomCounts.length; i++) {
++            if (diversityCheckForAddZeroes(arrayOfRandomCounts, randomCount)) {
++                arrayOfRandomCounts[i] = randomCount;
++            }
++            else {
++                arrayOfRandomCountsSet(arrayOfRandomCounts);
++            }
++        }
++        return arrayOfRandomCounts;
++    }  //for addZeroes();
++    
++    private boolean diversityCheckForAddZeroes(int[] array, int random) {
++        for (int i = 0; i < array.length; i++) {
++            if (random == array[i]) {
++            
++            }
++        }
++        return true;
++    }  //for addZeroes();
+     
+     public int[][] getCard() {
+         createCard();
+@@ -90,7 +105,7 @@
+     public int getLINES() {
+         return LINES;
+     }
+-
++    
+     public String helloWorld(){
+         return "Hello World";
+     }
